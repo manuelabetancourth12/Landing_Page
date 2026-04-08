@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dakingo</title>
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background:#f7ebe6;
+      padding:20px;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav a{
+      margin:0 10px;
+      text-decoration:none;
+      color:#333;
+    }
+
+    .btn{
+      background:#b43737;
+      color:#fff;
+      padding:10px 20px;
+      border-radius:20px;
+      border:none;
+      cursor:pointer;
+    }
+
+    .hero{
+      margin-top:20px;
+      background:linear-gradient(135deg,#c94c4c,#a83232);
+      color:#fff;
+      padding:40px;
+      border-radius:20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .hero img{
+      width:220px;
+      border-radius:50%;
+      border:8px solid #fff;
+    }
+
+    .badge{
+      background:#fff;
+      color:#b43737;
+      display:inline-block;
+      padding:8px 15px;
+      border-radius:20px;
+      margin-top:10px;
+    }
+
+    .menu{
+      background:#fff;
+      margin-top:-30px;
+      padding:20px;
+      border-radius:20px;
+    }
+
+    .menu-items{
+      display:flex;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .menu-item{
+      flex:1;
+      background:#f3f3f3;
+      padding:15px;
+      border-radius:10px;
+      text-align:center;
+    }
+
+    .products{
+      margin-top:30px;
+    }
+
+    .cards{
+      display:flex;
+      gap:15px;
+      margin-top:10px;
+    }
+
+    .card{
+      background:#fff;
+      padding:10px;
+      border-radius:15px;
+      text-align:center;
+    }
+
+    .card img{
+      width:150px;
+      border-radius:10px;
+    }
+
+    .footer{
+      margin-top:40px;
+      background:#b43737;
+      color:#fff;
+      padding:20px;
+      border-radius:20px;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1 style="color:#b43737;">Dakingo</h1>
+
+  <nav>
+    <a href="#">Cakes</a>
+    <a href="#">Desserts</a>
+    <a href="#">Birthday</a>
+  </nav>
+
+  <button class="btn">ORDER NOW</button>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>DECADENT CHOCOLATE BLISS!</h2>
+    <p>Satisfy Your Sweetest Cravings</p>
+    <div class="badge">SAVE 20%</div>
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" alt="cake">
+</section>
+
+<section class="menu">
+  <h3 style="color:#b43737;">Menu</h3>
+
+  <div class="menu-items">
+    <div class="menu-item">Classic</div>
+    <div class="menu-item">Gourmet</div>
+    <div class="menu-item">Desserts</div>
+    <div class="menu-item">Cookies</div>
+  </div>
+</section>
+
+<section class="products">
+  <h3 style="color:#b43737;">Bestsellers</h3>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1542826438-1c7f6b1b2b8e">
+      <p>Chocolate Cake</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1605478030848-2a2f9f4d0b5f">
+      <p>Truffle Cake</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c">
+      <p>Fruit Cake</p>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  <p>Dakingo - Your Trusted Bakery</p>
+</div>
+
+</body>
+</html>
